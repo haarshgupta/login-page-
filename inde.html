@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form page front end</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <form>
+<h1 class="header">Loggin form!!! </h1>
+<label for="fname"> First Nmae:</label>
+<input type="text" name="First name" id="fname" size="15" maxlength="15" placeholder="ex:vipul,samay "/>
+<br> <br>
+<label for="Mname">Middle Name:</label>
+<input type="text" name="middle name" id="Mname" size="15" maxlength="15" placeholder="Father's name"/>
+<br> <br>
+<label for="Lname">Last Name:</label>
+<input type="text" name="Last name" id="Lname" size="15" maxlength="15" placeholder="ex:goyal,patil"/>
+<br> <br>
+<label for="phone">Phone:</label>
+<input type="text" name="phone" id="phone" maxlength="10"  placeholder="9999999999"/>
+<br> <br>
+<label for="date">Date:</label>
+<input type="Date" name="date" id="date" />
+<br> <br>
+<label for="email">E-mail:</label>
+<input type="email" name="email" id="email" size="15" maxlength="25" placeholder="ex:doityourself@gmail.com"/>
+<br> <br>
+<label for="qut">Quantity:</label>
+<input type="number" id="qut" name="quantity"/>
+<div>
+    <br>
+    <div>
+        Gender:
+ Human:      <input type="radio" name="human" value="human" checked/>
+ Male:       <input type="radio" name="gender" value="male"  />
+ Female:     <input type="radio" name="gender" value="female"/>
+ Others:     <input type="radio" name="gender" value="others"/>
+    </div>
+<H4>:--pls check the items you need ↡</H4>
+</div>
+<div>
+    T-shirt:<input type="checkbox" name="t-shirt"/>
+</div><br>
+<div>
+    Shirt:<input type="checkbox" name="shirt"/>
+</div><br><div>
+    Pants:<input type="checkbox" name="pants"/>
+</div><br><div>
+    Trousers:<input type="checkbox" name="trousers"/>
+</div><br><div>
+    shoe:<input type="checkbox" name="shoe"/>
+</div><br>
+<div>
+    <label for="country">Country:</label>
+    <select name="country" ID="country" >
+        <option value="india">INDIA</option>
+        <option value="russia">RUSSIA</option>
+        <option value="us">US</option>
+        <option value="japan">JAPAN</option>
+    </select>
+</div>
+<label for="address">Address:</label> <br>
+<textarea name="address" id="address" col="100" row="50"></textarea>
+<br><br>
+<div>
+<input type="submit" vaue="SUBMIT"/>
+<input type="reset" value="RESET"/>    
+</div>
+
+</form>
+</body>
+</html>
